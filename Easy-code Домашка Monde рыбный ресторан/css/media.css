@@ -1,0 +1,174 @@
+@media (max-width: 1160px) {
+  .main__menu-list {
+    justify-content: space-around;
+  }
+
+  .main__menu-item {
+    width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu__btn {
+    display: block;
+    margin-right: 15px;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .menu__btn:hover {
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.8);
+  }
+
+  .menu__btn:active {
+    color: rgba(192, 192, 192, 0.8);
+    text-shadow: -1px -2px 0px rgba(0, 0, 0, 0.8);
+  }
+
+  .header__menu-list {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.95);
+  }
+
+  .right-items {
+    top: 226px;
+  }
+
+  .header__menu-item {
+    max-height: 42px;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .header__menu-item+.header__menu-item {
+    padding-left: 0;
+  }
+
+  .header__menu-item:hover,
+  .header__menu-item:focus {
+    background-color: #a7a7a7;
+    opacity: 1;
+    font-size: 15px;
+    outline: none;
+  }
+
+  .header__menu-item:active {
+    outline: none;
+    background-color: #ffffff;
+    opacity: 0.8;
+  }
+
+  .header__menu-item:hover a,
+  .header__menu-item:focus a {
+    font-size: 15px;
+  }
+
+  .header__menu-item:active a {
+    color: #000;
+  }
+
+  .header__menu-item a {
+    display: block;
+    padding: 15px 0;
+  }
+
+  .header__logo {
+    margin-left: 15px;
+    margin-right: auto;
+  }
+
+  .main__fish-quote {
+    margin-bottom: 50px;
+  }
+
+  .main__fish-photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main__fish-photo-item:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 920px) {
+  .main__menu-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 860px) {
+  .main__fish-menu {
+    padding: 50px 0;
+  }
+
+  .main__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 860px) {
+  .main__fish-title {
+    line-height: inherit;
+  }
+}
+
+@media (max-width: 601px) {
+  .top__title {
+    font-size: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .main__fish-review {
+    padding-top: 50px;
+  }
+
+  .footer__copy {
+    padding-top: 50px;
+  }
+
+  .footer__copy-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__copy-info pre {
+    display: none;
+  }
+
+  .footer__copy-adress,
+  .footer__copy-phone {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main__menu-item {
+    width: 100%;
+  }
+
+  .main__food-selection .dash {
+    display: none;
+  }
+
+  .main__food-description {
+    font-size: 10px;
+  }
+
+  .main__fish-title {
+    font-size: 75px;
+  }
+}
+
+/* минималки в конце! */
+@media (min-width: 992px) {
+  .header__menu-list {
+    display: block !important;
